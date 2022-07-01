@@ -223,7 +223,6 @@ button {
     border: none;
     color: #fff;
     text-decoration: none;
-    width:  10rem;
     line-height: 1.5;
     font-size: 16px;
     font-weight: 600;
@@ -581,10 +580,14 @@ footer a {
     color: #cbd5e0;
 }
 
+a {
+    margin: 0 12px;
+}
 
 
 
-@media (max-width: 850px) {
+
+@media (max-width: 900px) {
     .container {
         padding:20px;
     }
@@ -660,7 +663,9 @@ footer a {
         justify-content: center;
     }
  
-    
+    .btn__menu {
+        display: block;
+    }
 }
 
 @media (max-width: 650px) {
@@ -703,9 +708,5 @@ footer a {
 
     .nav__links {
         display: none;
-    }
-
-    .btn__menu {
-        display: block;
     }
 }
