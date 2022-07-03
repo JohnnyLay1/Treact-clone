@@ -217,7 +217,7 @@ header {
 }
 
 button {
-    padding: 10px 12px;
+    padding: 14px 48px;
     background-color: rgba(100,21,255);
     border-radius: 50px;
     border: none;
@@ -252,9 +252,18 @@ button {
     transition-duration: 300ms;
 }*/
 
+.btn {
+    position: absolute;
+    top: 26.5rem;
+    left: 35.3rem;
+    padding: 10px 24px;
+}
+
 .header__email {
     border: 2px lightgrey solid;
     border-radius: 2px;
+    position: relative;
+    
 }
 
 button:hover {
@@ -421,6 +430,7 @@ h2 {
     border-radius: 8px;
     padding: 16px 0;
     text-align: center;
+    border-top: rgb(56, 178, 172) 6px solid;
 }
 
 .plan,
