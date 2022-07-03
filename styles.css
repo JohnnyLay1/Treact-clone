@@ -527,6 +527,50 @@ h2 {
     margin: 24px;
 }
 
+/*Contact */
+
+.contact {
+    padding: 64px;
+    background-color: #6415ff;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-button {
+    background-color: #f56565;
+    padding: 24px 32px;
+    margin-left: 24px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.contact-button:hover {
+    background-color: #da4242;
+}
+
+.contact-button-1 {
+    border: 1px white solid;
+    padding: 24px 32px;
+    margin-left: 24px;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.contact-button-1:hover {
+    background-color: white;
+    color: #6415ff;
+}
+
+.contact-header {
+    color: white;
+    line-height: 1.5;
+    font-size: 30px;
+    width: 50%;
+}
+
 /*Footer*/
 
 .links {
@@ -666,6 +710,17 @@ a {
     .btn__menu {
         display: block;
     }
+
+    .contact-button {
+        margin: 0;
+    }
+
+
+    .contact-header {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 48px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -708,5 +763,10 @@ a {
 
     .nav__links {
         display: none;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
     }
 }
